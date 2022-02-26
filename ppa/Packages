@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Carl Seelye <cseelye@gmail.com>
 Depends: squashfs-tools, xorriso
 Filename: ./chroot-tools_0.1-1.deb
-Size: 2104
-MD5sum: dc44f03633a8a2bf90e2128103bc6884
-SHA1: 3e9653f6f2a9347a7cb76a971458206b5ddcb969
-SHA256: 90821bf511d97181733103922d67aa55da41feae475a0dde16d2ec6737b85f37
+Size: 2112
+MD5sum: 90db13d366bc97eabad6590ba0ead285
+SHA1: eb8e791ffcb17e8abee8d74ab369568b8e844544
+SHA256: 5d436bdb36ff476a96c68a2cd7e8689a873069c2220fdfd142de15ff5bcd85d5
 Section: misc
 Priority: optional
 Homepage: https://github.com/cseelye/chroot-tools
