@@ -8,7 +8,8 @@ To use, first install the key:
 Then add the apt config:
 
 ```
-curl -fsSL https://cseelye.github.io/deb-repo/ppa/cseelye_github.list -o /etc/apt/sources.list.d/cseelye_github.list
+curl -fsSL https://cseelye.github.io/deb-repo/ppa/cseelye_github.list \
+    -o /etc/apt/sources.list.d/cseelye_github.list
 apt-get update
 ```
 
