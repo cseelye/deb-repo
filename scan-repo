@@ -1,0 +1,16 @@
+#!/bin/bash
+set -xeEuo pipefail
+
+keyfile="${1-private.key}"
+gpg --allow-secret-key-import --import "${keyfile}"
+
+pushd ppa
+
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
+
+apt-ftparchive release . > Release
+gpg --default-key "cseelye@gmail.com" -abs -o - Release > Release.gpg
+gpg --default-key "cseelye@gmail.com" --clearsign -o - Release > InRelease
+
+popd
