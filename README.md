@@ -1,2 +1,3 @@
 # deb-repo
-Debian package repo hosted with GitHub Pages
+PPA repo hosted with GitHub Pages
+
