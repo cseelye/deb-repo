@@ -1,5 +1,7 @@
 SHELL = /bin/bash
 
+.DEFAULT_GOAL := repo
+
 container:
 	docker image build -t deb-tools .
 
