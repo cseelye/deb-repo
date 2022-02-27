@@ -1,28 +1,13 @@
 Package: chroot-tools
-Version: 0.1
+Version: 0.3
 Architecture: all
 Maintainer: Carl Seelye <cseelye@gmail.com>
 Depends: squashfs-tools, xorriso
-Filename: ./chroot-tools_0.1-1.deb
+Filename: ./chroot-tools_0.3-1.deb
 Size: 2112
-MD5sum: 90db13d366bc97eabad6590ba0ead285
-SHA1: eb8e791ffcb17e8abee8d74ab369568b8e844544
-SHA256: 5d436bdb36ff476a96c68a2cd7e8689a873069c2220fdfd142de15ff5bcd85d5
-Section: misc
-Priority: optional
-Homepage: https://github.com/cseelye/chroot-tools
-Description: Shell functions for manipulating images, ISOs, chroots
-
-Package: chroot-tools
-Version: 0.2
-Architecture: all
-Maintainer: Carl Seelye <cseelye@gmail.com>
-Depends: squashfs-tools, xorriso
-Filename: ./chroot-tools_0.2-1.deb
-Size: 2104
-MD5sum: 1be60a46a1f1473922b704d35bc5ad26
-SHA1: 2348cdf1bb35944ca5a05dbaba92a58e67795b8e
-SHA256: 42ef1e9dcf100f407db45a93ea26ea23eabfefb68d83d8b284516bf3c2605eb2
+MD5sum: ff710dc98ebb8dd61a2fc9444d0f3a4c
+SHA1: 6cf36c7f87701b5d127e4a67c111bd8790aa52f8
+SHA256: 49064e85dc25c7dcce5c79fa23a567996d97c4f658413289e35b49e2f34766c1
 Section: misc
 Priority: optional
 Homepage: https://github.com/cseelye/chroot-tools
