@@ -1,13 +1,13 @@
 Package: chroot-tools
-Version: 0.3
+Version: 0.4
 Architecture: all
 Maintainer: Carl Seelye <cseelye@gmail.com>
 Depends: squashfs-tools, xorriso
-Filename: ./chroot-tools_0.3-1.deb
-Size: 2112
-MD5sum: ff710dc98ebb8dd61a2fc9444d0f3a4c
-SHA1: 6cf36c7f87701b5d127e4a67c111bd8790aa52f8
-SHA256: 49064e85dc25c7dcce5c79fa23a567996d97c4f658413289e35b49e2f34766c1
+Filename: ./chroot-tools_0.4-1.deb
+Size: 2136
+MD5sum: 7462d930ec72abf822b4b954194f8ed7
+SHA1: 5c9301ce1cf5b8a904d722569f604c300fa51f69
+SHA256: 314e1d03335d04260b0c8109de77d2facecd84e046b3480591ec5df700390a40
 Section: misc
 Priority: optional
 Homepage: https://github.com/cseelye/chroot-tools
